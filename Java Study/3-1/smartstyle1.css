@@ -1,0 +1,43 @@
+@media screen and (max-width: 767px) {
+	.clearfix::after { 
+    	content: '';
+    	display: block; 
+    	clear: both;
+	}
+	.header{
+		width: 250px;
+	}
+
+	.right{
+		width: 100px;
+		float: left;
+	}
+	.footer{
+		width: 250px;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.clearfix::after { 
+    	content: '';
+    	display: block; 
+    	clear: both;
+	}
+	.header{
+		width: 150px;
+	}
+	.main{
+		width: 150px;
+	}
+	.left{
+		width: 150px;
+		float: none;
+	}
+	.right{
+		width: 150px;
+		float: none;
+	}
+	.footer{
+		width: 150px;
+	}
+}
