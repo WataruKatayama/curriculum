@@ -1,0 +1,86 @@
+.wrapper{
+	width: 400px;
+	margin: 0 auto;
+}
+.bg-white{
+	background-color: #fff;
+}
+.bg-red{
+	background-color: #a9004b;
+}
+.bg-orange{
+	background-color: #ff863f;
+}
+.block-top{
+	height: 100px;
+	width: 400px;
+}
+.header{
+	background-color: #141f40;
+	height: 100px;
+	width: 400px;
+}
+.miniblock1{
+	float: right;
+	width: 160px;
+	height: 60px;
+	margin: 20px 20px 20px 220px;
+}
+.inner1{
+	height: 40px;
+	width: 40px;
+	margin: 10px 110px 10px 10px;
+}
+.inner2{
+	height: 40px;
+	width: 40px;
+	margin: -50px 60px 10px 60px;
+}
+.inner3{
+	height: 40px;
+	width: 40px;
+	margin: -50px 10px 10px 110px;
+}
+.block-center{
+	height: 250px;
+	width: 400px;
+}
+.left{
+	float: left;
+	background-color: #80bfa8;
+	height: 250px;
+	width: 150px;
+}
+.right{
+	float: right;
+	background-color: #8c2727;
+	height: 250px;
+	width: 250px;
+}
+.miniblock2{
+	height: 40px;
+	width: 140px;
+	border: 5px solid #fff;
+	margin: 40px 60px 160px 40px;
+}
+.miniblock3{
+	height: 40px;
+	width: 140px;
+	border: 5px solid #fff;
+	margin: -150px 60px 10px 40px;
+}
+.miniblock4{
+	height: 40px;
+	width: 140px;
+	border: 5px solid #fff;
+	margin: 0px -20px 0px 40px;
+}
+.block-under{
+	height: 100px;
+	width: 400px;
+}
+.footer{
+	background-color: #d98d30;
+	height: 100px;
+	width: 400px;
+}
