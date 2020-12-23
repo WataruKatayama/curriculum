@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.block1{
+background-color: gray;
+}
+.header{
+/*labelタグの場合は必ずdisplay: inline-block;を記入する*/
+display: inline-block;
+padding: 10px;
+color: white;
+}
+.calendar{
+display:inline-block;
+padding: 10px;
+font-size: 10px;
+}
+.block2{
+background-color: gray;
+}
+.footer{
+display: inline-block;
+padding: 10px;
+color: white;
+}
+.block3{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.namearea{
+width: 45px;
+/*表内の文字を中央揃えにしたい場合はtext-align: center;を使用する*/
+text-align: center;
+}
+.idarea{
+width: 45px;
+/*表内の文字を中央揃えにしたい場合はtext-align: center;を使用する*/
+text-align: center;
+}
+.name{
+/*文字を太くしたい場合に使用*/
+font-weight: bold;
+}
+.id{
+font-weight: bold;
+}
