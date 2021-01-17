@@ -6,11 +6,13 @@
  <servlet>
  <servlet-name>select</servlet-name>
  <!--問① サーブレットのクラス名を入れてください。-->
+ <!-- javaファイル名に使用しているクラス名を入力する。 -->
  <servlet-class>SelectServlet</servlet-class>
  </servlet>
  <servlet-mapping>
  <servlet-name>select</servlet-name>
  <!--問② URLパターンを記述してください。-->
+ <!--  /htmlファイル名　を入力する。  -->
  <url-pattern>/select</url-pattern>
  </servlet-mapping>
 </web-app>
