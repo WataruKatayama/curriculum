@@ -11,9 +11,9 @@
  
 -- 3. 在庫テーブルに店舗テーブル、商品テーブルを「内部結合」し、店舗名・商品名・在庫数を全て取得しなさい。
 -- [回答]
- select quantity,store_name,goods_name from stock_table
-join store_table on cast (stock_table.quantity as varchar) < store_table.store_name
-join goods_table on cast (stock_table.quantity as varchar) < goods_table.goods_name
+select quantity,store_name,goods_name from stock_table
+join store_table on stock_table.store_code = store_table.store_code
+join goods_table on stock_table.goods_code = goods_table.goods_code
 
  
 -- 4. 商品テーブルから全商品の単価の平均値を抽出しなさい。
