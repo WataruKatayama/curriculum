@@ -10,7 +10,7 @@ public class Example5_2 {
     //定数の設定
     //ドライバーのクラス名
     private static final String POSTGRES_DRIVER ="org.postgresql.Driver";
-    private static final String JDBC_CONNECTION ="dbc:postgresql://localhost:5432/lesson_db";
+    private static final String JDBC_CONNECTION ="jdbc:postgresql://localhost:5432/lesson_db";
     private static final String USER ="postgres";
     private static final String PASS ="postgres";
 
