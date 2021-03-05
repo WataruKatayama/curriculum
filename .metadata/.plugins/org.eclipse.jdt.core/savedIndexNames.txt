@@ -1,0 +1,10 @@
+INDEX VERSION 1.131+/Volumes/Macintosh HD - Data/Users/katayama/LetsEngineer/curriculum/.metadata/.plugins/org.eclipse.jdt.core
+1924484980.index
+4155219971.index
+311043671.index
+157837489.index
+4222055287.index
+1756853502.index
+1278750107.index
+1707337428.index
+2501700688.index
